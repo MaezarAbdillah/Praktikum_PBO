@@ -157,6 +157,7 @@ public class Main {
         System.out.println("=========================");
         if(pilih == 1){
             if(!honda.isEmpty()){
+            Read(1);
             System.out.print("Ingin Ganti Data Nomor Berapa : ");
             int index = Integer.parseInt(br.readLine());
             System.out.println("=============================");
@@ -185,6 +186,7 @@ public class Main {
             }
         }else if(pilih == 2){
             if(!yamaha.isEmpty()){
+            Read("2");
             System.out.print("Ingin Ganti Data Nomor Berapa : ");
             int index = Integer.parseInt(br.readLine());
             System.out.println("=============================");
@@ -227,6 +229,7 @@ public class Main {
         System.out.println("=========================");
         if(pilih == 1){
             if(!honda.isEmpty()){
+            Read(1);
             System.out.print("Ingin Hapus Data Nomor Berapa : ");
             int index = Integer.parseInt(br.readLine());
             honda.remove(index-1).suksesDelete();
@@ -238,6 +241,7 @@ public class Main {
             }
         }else if(pilih == 2){
             if(!yamaha.isEmpty()){
+            Read("2");
             System.out.print("Ingin Hapus Data Nomor Berapa : ");
             int index = Integer.parseInt(br.readLine());
             yamaha.remove(index-1).suksesDelete();
