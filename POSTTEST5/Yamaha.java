@@ -1,6 +1,6 @@
 package POSTTEST5;
 
-public class Yamaha extends Motor{
+public final class Yamaha extends Motor{
     final String yamaha = "Yamaha";
     
     public Yamaha(String Nama, String Jenis, String Warna,int Harga, String Yamaha){
