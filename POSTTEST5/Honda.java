@@ -1,6 +1,6 @@
 package POSTTEST5;
 
-public class Honda extends Motor{
+public final class Honda extends Motor{
     final String honda = "Honda";
     
     public Honda(String Nama, String Jenis,String Warna, int Harga,String Honda){
